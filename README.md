@@ -1,20 +1,33 @@
 # Multi-Web-Services-REST-GraphQL-SOAP-GRPC
 
-L'architecture des microservices est un style d'architecture logicielle où une application est construite sous forme de plusieurs services indépendants qui collaborent pour fournir une fonctionnalité complète. Dans ce contexte, différents protocoles et formats de données sont utilisés pour la communication entre les microservices. Voici quelques-uns des protocoles et formats couramment utilisés dans l'architecture des microservices :
+<p align="justify">L'architecture des microservices est un style d'architecture logicielle où une application est construite sous forme de plusieurs services indépendants qui collaborent pour fournir une fonctionnalité complète. Dans ce contexte, différents protocoles et formats de données sont utilisés pour la communication entre les microservices. Voici quelques-uns des protocoles et formats couramment utilisés dans l'architecture des microservices :</p>
 
 * ## SOAP (Simple Object Access Protocol) : 
-Il utilise HTTP 1.1 comme protocole de transport et XML comme format de données. SOAP est un protocole basé sur des normes, offrant des fonctionnalités avancées telles que la sécurité et la fiabilité, mais il peut être complexe à mettre en œuvre et a tendance à être plus verbeux en raison de l'utilisation d'XML.
+<p align="justify">Il utilise HTTP 1.1 comme protocole de transport et XML comme format de données. SOAP est un protocole basé sur des normes, offrant des fonctionnalités avancées telles que la sécurité et la fiabilité, mais il peut être complexe à mettre en œuvre et a tendance à être plus verbeux en raison de l'utilisation d'XML.</p>
 
 * ## REST (Representational State Transfer) : 
-Il utilise également HTTP 1.1 comme protocole de transport, mais il est plus léger et plus simple que SOAP. REST peut utiliser différents formats de données tels que JSON, XML ou d'autres formats selon les besoins. Il est basé sur les verbes HTTP standard tels que GET, POST, PUT et DELETE pour effectuer des opérations sur les ressources.
+<p align="justify">Il utilise également HTTP 1.1 comme protocole de transport, mais il est plus léger et plus simple que SOAP. REST peut utiliser différents formats de données tels que JSON, XML ou d'autres formats selon les besoins. Il est basé sur les verbes HTTP standard tels que GET, POST, PUT et DELETE pour effectuer des opérations sur les ressources.</p>
 
 * ## GraphQL : 
-Il utilise HTTP 1.1 comme protocole de transport et JSON comme format de données. GraphQL offre une flexibilité accrue en permettant aux clients de spécifier les données exactes dont ils ont besoin, ce qui permet de minimiser les problèmes de surcharge de données. Il permet aux clients d'effectuer des requêtes complexes avec un seul appel.
+<p align="justify">Il utilise HTTP 1.1 comme protocole de transport et JSON comme format de données. GraphQL offre une flexibilité accrue en permettant aux clients de spécifier les données exactes dont ils ont besoin, ce qui permet de minimiser les problèmes de surcharge de données. Il permet aux clients d'effectuer des requêtes complexes avec un seul appel.</p>
 
 * ## gRPC (Google Remote Procedure Call) : 
-Il utilise HTTP/2 comme protocole de transport et ProtoBuf (Protobuf) comme format de données. gRPC est conçu pour une communication efficace entre les services et prend en charge la sérialisation binaire avec ProtoBuf, ce qui permet une taille de message réduite et des performances améliorées. Il prend en charge la génération automatique de code pour différentes langues de programmation.
+<p align="justify">Il utilise HTTP/2 comme protocole de transport et ProtoBuf (Protobuf) comme format de données. gRPC est conçu pour une communication efficace entre les services et prend en charge la sérialisation binaire avec ProtoBuf, ce qui permet une taille de message réduite et des performances améliorées. Il prend en charge la génération automatique de code pour différentes langues de programmation.</p>
+<p align="justify">
+Chacun de ces protocoles et formats a ses propres avantages et est adapté à des cas d'utilisation spécifiques. Le choix dépend des besoins du système, des contraintes de performance, de la complexité des interactions et de la préférence de l'équipe de développement.</p>
 
-Chacun de ces protocoles et formats a ses propres avantages et est adapté à des cas d'utilisation spécifiques. Le choix dépend des besoins du système, des contraintes de performance, de la complexité des interactions et de la préférence de l'équipe de développement.
+* ## Objectifs : 
+<p align="justify">Dans ce système distribué, nous avons deux microservices : le Customer Service et le Account Service. L'objectif est de connecter ces deux services en utilisant les différentes générations des web services : REST, GraphQL, SOAP et gRPC.
+
+Pour commencer, nous pouvons mettre en place une intégration basée sur REST. Le Customer Service peut exposer des endpoints RESTful pour les opérations relatives aux clients, tandis que l'Account Service peut exposer des endpoints RESTful pour les opérations liées aux comptes. Les deux services peuvent communiquer entre eux en utilisant des requêtes HTTP avec des formats de données tels que JSON ou XML, selon les besoins. Par exemple, le Customer Service peut envoyer une requête REST pour récupérer les informations du compte d'un client à l'Account Service.
+
+Ensuite, nous pouvons envisager une intégration basée sur GraphQL. Dans cette approche, un point d'entrée GraphQL peut être mis en place, qui permet aux clients de formuler des requêtes flexibles pour obtenir les données nécessaires à partir des deux microservices. Les clients peuvent spécifier les champs et les relations exacts qu'ils souhaitent récupérer, ce qui permet d'éviter le surchargement de données. Les requêtes GraphQL peuvent être acheminées vers les microservices appropriés pour récupérer les informations nécessaires.
+
+Ensuite, nous pouvons intégrer les microservices en utilisant le protocole SOAP. Le Customer Service peut exposer des opérations SOAP qui fournissent des fonctionnalités spécifiques liées aux clients, tandis que l'Account Service peut exposer des opérations SOAP pour les opérations liées aux comptes. Les services peuvent communiquer en utilisant des messages SOAP qui encapsulent les données pertinentes et les envoient via des appels de méthode à distance.
+
+Enfin, nous pouvons intégrer les microservices en utilisant gRPC. Dans cette approche, nous pouvons définir des interfaces et des messages avec le langage de définition de protocole Protobuf (ProtoBuf). Le Customer Service et l'Account Service peuvent communiquer en utilisant le protocole gRPC, qui offre une communication efficace basée sur HTTP/2 et la sérialisation binaire optimisée. Les services peuvent échanger des messages structurés en utilisant les opérations définies dans les interfaces Protobuf.
+
+En résumé, pour connecter les microservices Customer Service et Account Service, nous avons exploré les différentes générations des web services : REST, GraphQL, SOAP et gRPC. Chaque approche offre ses propres avantages en termes de flexibilité, de performance et de compatibilité. Le choix dépendra des besoins spécifiques du système, des contraintes techniques et des préférences de l'équipe de développement.</p>
 
 <img width="590" alt="1" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/11a557b8-3b94-4667-aaf6-4e365a4bca79">
 <img width="590" alt="2" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/0c7c0de4-03af-480f-a6eb-862403676252">
