@@ -17,6 +17,9 @@
 Chacun de ces protocoles et formats a ses propres avantages et est adapté à des cas d'utilisation spécifiques. Le choix dépend des besoins du système, des contraintes de performance, de la complexité des interactions et de la préférence de l'équipe de développement.</p>
 
 * ## Objectifs : 
+
+<center><img width="1643" alt="architecture" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/3befacca-bfaa-4ce9-bcdf-24a7d5e39522"></center>
+
 <p align="justify">Dans ce système distribué, nous avons deux microservices : le Customer Service et le Account Service. L'objectif est de connecter ces deux services en utilisant les différentes générations des web services : REST, GraphQL, SOAP et gRPC.</p>
 
 <p align="justify">Pour commencer, nous pouvons mettre en place une intégration basée sur REST. Le Customer Service peut exposer des endpoints RESTful pour les opérations relatives aux clients, tandis que l'Account Service peut exposer des endpoints RESTful pour les opérations liées aux comptes. Les deux services peuvent communiquer entre eux en utilisant des requêtes HTTP avec des formats de données tels que JSON ou XML, selon les besoins. Par exemple, le Customer Service peut envoyer une requête REST pour récupérer les informations du compte d'un client à l'Account Service.</p>
@@ -108,6 +111,18 @@ Chacun de ces protocoles et formats a ses propres avantages et est adapté à de
 <img width="950" alt="76" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/fc0302f5-29dc-45a0-a565-03833cbd23cf">
 <img width="950" alt="77" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/e78b1be3-155d-488a-a70e-8e9f271e3a76">
 <img width="950" alt="78" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/b670b931-746f-454e-9e7a-7130360d887d">
+<img width="960" alt="79" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/14f020c4-d67f-476a-9c98-4fa55d939564">
+<img width="960" alt="86" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/d9cf47cd-9bd5-475b-9b80-b1aae86a4949">
+<img width="960" alt="87" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/b2ba9cd0-df56-4fb1-b7cd-722352e0457a">
+<img width="960" alt="88" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/c4514a5f-795f-4662-98bc-91e93cf40394">
+<img width="960" alt="89" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/907f1f72-525f-46b1-afbf-270fcc81e178">
+<img width="960" alt="80" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/fc2979b6-1576-4366-a497-b9794e7dd57b">
+<img width="960" alt="81" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/2100476e-5ff3-476f-b900-4d3749000676">
+<img width="960" alt="82" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/6fcaaaa3-54ba-4c49-b10e-9b74b4951cf8">
+<img width="960" alt="83" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/e8d283d9-0d82-4531-87b0-155f478c6b34">
+<img width="960" alt="84" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/79972ef0-3639-4d7a-93ae-56e4ce32b7f6">
+<img width="960" alt="85" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/61851960-3aa9-4f76-ac09-a55a491a91ea">
+
 
 
 
