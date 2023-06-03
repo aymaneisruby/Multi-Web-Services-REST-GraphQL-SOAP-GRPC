@@ -1,0 +1,34 @@
+syntax="proto3";
+option java_package="org.sid.customerservice.stubs";
+
+message Customer {
+  int64 id=1;
+  string name=2;
+  string email=3;
+}
+
+service CustomerGrpcService {
+  rpc getCustomer(GetCustomerRequest) returns (GetCustomerResponse);
+  rpc getListCustomers(GetAllCustomersRequest) returns ( GetAllCustomersResponse);
+  rpc saveCustomer(SaveCustomerRequest) returns (SaveCustomerResponse);
+}
+
+message GetCustomerRequest{
+  int64 id=1;
+}
+
+message GetCustomerResponse{
+  Customer customer=1;
+}
+message GetAllCustomersRequest {}
+
+message GetAllCustomersResponse{
+  repeated  Customer customers = 1;
+}
+message SaveCustomerRequest {
+  string name=1;
+  string email=2;
+}
+message SaveCustomerResponse {
+  Customer customer=1;
+}
