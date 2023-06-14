@@ -154,9 +154,15 @@ Chacun de ces protocoles et formats a ses propres avantages et est adapté à de
 <img width="960" alt="15" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/08d44b4f-fff9-425c-8fb9-9a06da074806">
 <img width="960" alt="30" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/0cbd9b3a-08e1-40cf-b296-4c566cb6f628">
 <p>Exécutez la commande suivante pour générer les classes Java SOAP</p>
+
+```shell
 mvn generate-sources
-<p>Une fois le processus terminé, vous trouverez les classes Java générées dans le répertoire source spécifié :</p>
+```
+<p>Une fois le processus terminé, vous trouverez les classes Java générées dans le répertoire source spécifié</p>
+
+```shell
 target/generated-sources/cxf
+```
 <img width="963" alt="18" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/70372fba-58e0-4eac-a0c0-3dcd097a24dc">
 <img width="960" alt="19" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/ebd5b712-2b72-4a26-8aea-c2835e6bd8c1">
 <img width="960" alt="20" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/402b0608-1e7f-4562-b580-1237da845b1a">
