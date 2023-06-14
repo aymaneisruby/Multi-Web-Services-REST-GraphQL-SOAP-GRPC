@@ -175,6 +175,8 @@ target/generated-sources/cxf
 <img width="960" alt="29" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/6ad5d597-b39b-4296-8fa0-4820fe80f3db">
 <img width="960" alt="34" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/138f002a-30c1-4c76-ad40-2c7fde0c165a">
 
+# Client Endpoints 
+
 The SOAP endpoint URL is [http://localhost:8080/customersSoap](http://localhost:8080/customersSoap).<br>
 The gRPC endpoint URL is [http://localhost:8080/customersGrpc](http://localhost:8080/customersGrpc).<br>
 The GraphQL endpoint URL is [http://localhost:8080/customersGql](http://localhost:8080/customersGql).<br>
