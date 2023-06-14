@@ -175,11 +175,6 @@ target/generated-sources/cxf
 <img width="960" alt="29" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/6ad5d597-b39b-4296-8fa0-4820fe80f3db">
 <img width="960" alt="34" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/138f002a-30c1-4c76-ad40-2c7fde0c165a">
 
-<p>Lancez le service customer :</p>
-
-<img width="960" alt="47" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/513001e6-a467-4258-bb2e-6eecc49b5f91">
-<img width="960" alt="46" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/128e027d-5a66-4922-8f9d-b594f9a80fac">
-
 The SOAP endpoint URL is [http://localhost:8080/customersSoap](http://localhost:8080/customersSoap).<br>
 The gRPC endpoint URL is [http://localhost:8080/customersGrpc](http://localhost:8080/customersGrpc).<br>
 The GraphQL endpoint URL is [http://localhost:8080/customersGql](http://localhost:8080/customersGql).<br>
@@ -188,17 +183,17 @@ The REST endpoint using RestTemplate URL is [http://localhost:8080/customersRest
 The REST endpoint using WebClient URL is [http://localhost:8080/customersWebClient](http://localhost:8080/customersWebClient).<br>
 The REST endpoint using RestFeign URL is [http://localhost:8080/customersRestFeign](http://localhost:8080/customersRestFeign).<br>
 <br>
-Access the specific customer using WebClient:
+Accédez au client spécifique à l'aide de WebClient :
 - Customer 1: [http://localhost:8080/customersWebClient/1](http://localhost:8080/customersWebClient/1)<br>
 - Customer 2: [http://localhost:8080/customersWebClient/2](http://localhost:8080/customersWebClient/2)<br>
 - Customer 3: [http://localhost:8080/customersWebClient/3](http://localhost:8080/customersWebClient/3)<br>
 
-Access the customer by ID using RestFeign:
+Accédez au client par ID à l'aide de RestFeign :
 - Customer 1: [http://localhost:8080/customerByIdRestFeign/1](http://localhost:8080/customerByIdRestFeign/1)<br>
 - Customer 2: [http://localhost:8080/customerByIdRestFeign/2](http://localhost:8080/customerByIdRestFeign/2)<br>
 - Customer 3: [http://localhost:8080/customerByIdRestFeign/3](http://localhost:8080/customerByIdRestFeign/3)<br>
 
-Access the customer by ID using GraphQL:
+Accédez au client par ID à l'aide de GraphQL :
 - Customer 1: [http://localhost:8080/customerByIdGql/1](http://localhost:8080/customerByIdGql/1)<br>
 - Customer 2: [http://localhost:8080/customerByIdGql/2](http://localhost:8080/customerByIdGql/2)<br>
 - Customer 3: [http://localhost:8080/customerByIdGql/3](http://localhost:8080/customerByIdGql/3)<br>
