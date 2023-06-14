@@ -21,8 +21,8 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
-    public class AccountRestAPI {
-
+public class AccountRestAPI
+{
         @Autowired
         private CustomerSoapService customerSoapService;
         @Autowired
@@ -32,7 +32,8 @@ import java.util.stream.Collectors;
         @GetMapping("/customersSoap")
         public List<Customer> customerList(){
             List<org.sid.customerservice.web.soap.Customer> customerList = customerSoapService.allCustomers();
-            List<Customer> customers = customerList.stream().map(customerMapper::fromSoapCustomerToCustomer).collect(Collectors.toList());
+            List<Customer> customers = customerList.stream().map(customerMapper::fromSoapCustomerToCustomer)
+                    .collect(Collectors.toList());
             return customers;
         }
         @GrpcClient("customerService")
@@ -40,8 +41,12 @@ import java.util.stream.Collectors;
 
         @GetMapping("/customersGrpc")
         public List<Customer> customerListGrpc(){
-            CustomerService.GetAllCustomersResponse response = customerGrpcServiceBlockingStub.getListCustomers(CustomerService.GetAllCustomersRequest.newBuilder().getDefaultInstanceForType());
-            return response.getCustomersList().stream().map(customerMapper::fromGrpcCustomerToCustomer).collect(Collectors.toList());
+            CustomerService.GetAllCustomersResponse response = customerGrpcServiceBlockingStub
+                    .getListCustomers(CustomerService.GetAllCustomersRequest.newBuilder().getDefaultInstanceForType());
+            return response.getCustomersList()
+                    .stream()
+                    .map(customerMapper::fromGrpcCustomerToCustomer)
+                    .collect(Collectors.toList());
         }
 
         @GetMapping("/customersGql")
