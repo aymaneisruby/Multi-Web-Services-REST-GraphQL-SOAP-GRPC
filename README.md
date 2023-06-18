@@ -128,32 +128,7 @@ Chacun de ces protocoles et formats a ses propres avantages et est adapté à de
 
 # Partie Account Service
 
-<img width="602" alt="0" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/e7705010-9c14-4d58-87d0-9f06fb370e09">
-<img width="602" alt="0-1" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/4ac7e607-219f-4686-a119-fc11b917af30">
-<img width="960" alt="3" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/7d1cfd0d-b3d8-4e98-b519-2fc61111da1a">
-<img width="960" alt="4" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/895d8e99-796c-49a6-85c5-b3caa6e65257">
-<img width="960" alt="5" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/f5a10ec3-3db0-44d6-b4cd-df8512329d8b">
-<img width="960" alt="6" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/a11191d3-a35b-4cd9-94ae-ddfaf83a1fe7">
-<img width="960" alt="7" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/0f6f014f-35fa-4994-b967-5422bf21161a">
-<img width="960" alt="8" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/a7fae038-5f00-4882-baa6-b78af91ec104">
-<img width="960" alt="9" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/323b38d2-1269-4943-b2b2-6b5f62c37e79">
-<img width="960" alt="10" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/ca79a97d-ecda-4ef8-a1c1-997739e4f3f9">
-<img width="960" alt="11" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/149dc9d7-1d44-4050-b9e0-abc6a8c10481">
-<img width="960" alt="12" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/ee7353b3-0431-422a-9b51-245adb4f1a65">
-<img width="960" alt="48" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/6914b8b9-c827-436e-b515-1d8bdff75bfc">
-<img width="960" alt="49" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/50834a3a-507f-4855-95aa-a9a194a331bd">
-<img width="960" alt="50" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/3422d0cc-f12e-4e1a-9d32-8306cce599e4">
-<img width="960" alt="27" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/100b2233-dc19-491f-95b1-27dc849d13ee">
-<img width="960" alt="28" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/58696708-99ff-4963-99a5-a4973c8a17a6">
-<img width="960" alt="26" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/b49ec118-0244-4f65-9533-19411af69a9a">
-<img width="960" alt="31" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/8fe12b70-e484-4eee-8593-dc499b680cf6">
-<img width="960" alt="32" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/138c6555-af29-4902-a07d-10d7d9dfae79">
-<img width="960" alt="33" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/8f2227e4-cec6-4ce5-9441-5c2f00b73774">
-<img width="960" alt="30" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/b79ae476-33b6-4bd1-83d3-9e8ab97439e2">
-<img width="960" alt="13" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/1ff9210b-eb2c-4aa0-8f6f-0422f7229947">
-<img width="960" alt="14" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/cd873e67-978f-44b9-bd7e-0a7c30808015">
-<img width="960" alt="15" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/08d44b4f-fff9-425c-8fb9-9a06da074806">
-<img width="960" alt="30" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/0cbd9b3a-08e1-40cf-b296-4c566cb6f628">
+
 
 <img width="602" alt="0" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/84ad6beb-6047-4eaa-9220-17e001acbefa">
 <img width="602" alt="0-1" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/0315f7f5-b73c-4e7e-959a-354f8d6d2923">
