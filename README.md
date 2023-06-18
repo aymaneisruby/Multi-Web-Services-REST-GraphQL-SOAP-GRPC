@@ -18,7 +18,7 @@ Chacun de ces protocoles et formats a ses propres avantages et est adapté à de
 
 * ## Objectifs : 
 
-<center><img width="1643" alt="architecture" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/3befacca-bfaa-4ce9-bcdf-24a7d5e39522"></center>
+<center></center>
 
 <p align="justify">Dans ce système distribué, nous avons deux microservices : le Customer Service et le Account Service. L'objectif est de connecter ces deux services en utilisant les différentes générations des web services : REST, GraphQL, SOAP et gRPC.</p>
 
