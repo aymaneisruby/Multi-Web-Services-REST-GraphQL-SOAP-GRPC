@@ -151,17 +151,17 @@ target/generated-sources/cxf
 <img width="960" alt="48" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/9824fef2-6647-4fd0-a283-0606ad02e67e">
 <img width="960" alt="49" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/39e906ba-d8d8-46a4-a4cf-928121d79a9d">
 <img width="960" alt="50" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/345ce8b3-7673-44c3-b106-97da37d28f69">
-<img width="963" alt="18" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/70372fba-58e0-4eac-a0c0-3dcd097a24dc">
-<img width="960" alt="19" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/ebd5b712-2b72-4a26-8aea-c2835e6bd8c1">
-<img width="960" alt="20" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/402b0608-1e7f-4562-b580-1237da845b1a">
-<img width="960" alt="21" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/21e43b67-85bc-4f3b-b0f2-34876fd4c407">
-<img width="960" alt="22" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/051607d2-dc5e-4dc6-a8bc-7ae5e627ee93">
-<img width="960" alt="23" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/1bb367e8-b5d3-4d7b-a712-6840311cbbab">
-<img width="960" alt="24" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/9964d7d8-cec6-478f-bd49-7c49664aa01e">
-<img width="960" alt="25" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/84b5b6c3-1901-4331-8632-e70c86c349dd">
-<img width="960" alt="51" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/9faa36f2-b821-4390-8eb1-3bd4f2fb91a9">
-<img width="960" alt="29" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/6ad5d597-b39b-4296-8fa0-4820fe80f3db">
-<img width="960" alt="34" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/138f002a-30c1-4c76-ad40-2c7fde0c165a">
+<img width="963" alt="18" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/2e757c4a-4eb9-46d7-8b28-ff252274cec3">
+<img width="960" alt="19" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/ea00ebaf-e557-46e1-b93d-732e75643d8f">
+<img width="960" alt="20" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/6b12a368-3227-485b-9e5d-c9ccbe675639">
+<img width="960" alt="21" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/a72b0d62-d2eb-44b7-9d88-2a3b48641caf">
+<img width="960" alt="22" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/7ae7ba18-4a2f-42fa-8fac-f0e230920e9e">
+<img width="960" alt="23" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/eaf7ae86-b0bb-47ec-bc25-de03b03a9938">
+<img width="960" alt="24" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/f786fe95-9c25-4d34-8d1c-01b3e005c6e6">
+<img width="960" alt="25" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/1ad23823-e0e1-410e-a695-0e7ac0652d91">
+<img width="960" alt="51" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/80e4051f-2d65-4dd9-9413-4728afd7e7db">
+<img width="960" alt="29" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/a41b8531-4fb6-42db-917d-73721b35688e">
+<img width="960" alt="34" src="https://github.com/aymaneisruby/Multi-Web-Services-REST-GraphQL-SOAP-GRPC/assets/105078337/d2261f6a-31f5-486a-a9b0-f2f52f3b1012">
 
 
 # Client Endpoints 
